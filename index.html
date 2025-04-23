@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <label for="blog-style">Select Blog Style:</label>
+    <select id="blog-style">
+      <option value="style1" selected>Style 1 (Video, Title, 3 Text Sections, 2 Images)</option>
+      <option value="style2">Style 2 (Image, Title, Text Section, Hyperlinked Button)</option>
+      <option value="style3">Style 3 (Image, Title, 5 Text Sections, 4 Images)</option>
+      <option value="style4">Style 4 (Multiple Images, Text Sections)</option>
+      <option value="style5">Style 5 (Video, Title, Multiple Images, Text Sections)</option>
+    </select>
+    <div id="form-container" class="form-container">
+      <div id="input-area" class="input-area">
+      </div>
+      <div id="preview-container" class="preview-container">
+        <img id="style-preview" src="images/Style1.jpg" alt="Style 1 Preview" />
+      </div>
+    </div>
+    <button id="generate-html" class="generate-btn">Generate HTML</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
