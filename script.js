@@ -642,7 +642,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   <div class="blog-content-section" id="section-4">
     <p id="blog-text-4">${document.getElementById('text4').value}</p>
-    <img id="blog-image-5" src="${document.getElementById('image5').value}" alt="Image 5">
+    <img id="blog-image-5" src="${document.getElementById('image4').value}" alt="Image 5">
   </div>
 
   <div class="blog-content-section" id="section-5">
