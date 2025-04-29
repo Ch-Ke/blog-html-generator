@@ -542,6 +542,11 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin: auto !important;
   }
   
+  #blog-video{
+    width:100%;
+    aspect-ratio: 16/9
+  }
+
   #blog-image-1
   .blog-bottom-banner-image{
     width:100%;
@@ -602,9 +607,9 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin-bottom: 30px;
   }
 
-  #blog-image-4{
+  #blog-image-3{
     max-height: 500px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/3;
   }
   
 </style>
@@ -625,24 +630,24 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   <div class="blog-image-text-container">
     <div class="blog-image-text-item" id="section-1">
-      <img class="blog-content-image" id="blog-image-2" src="${document.getElementById('image2').value}" alt="Image 2">
+      <img class="blog-content-image" id="blog-image-1" src="${document.getElementById('image2').value}" alt="Image 2">
       <p class="blog-content-text" id="blog-text-1">${document.getElementById('text1').value}</p>
     </div>
 
     <div class="blog-image-text-item" id="section-2">
       <p class="blog-content-text" id="blog-text-2">${document.getElementById('text2').value}</p>
-      <img class="blog-bottom-banner-image" id="blog-image-3" src="${document.getElementById('image3').value}" alt="Image 3">
+      <img id="blog-image-2" src="${document.getElementById('image3').value}" alt="Image 3">
     </div>
   </div>
 
   <div id="section-3">
-    <img class="blog-bottom-banner-image" id="blog-image-4" src="${document.getElementById('image4').value}" alt="Image 4">
+    <img class="blog-bottom-banner-image" id="blog-image-3" src="${document.getElementById('image4').value}" alt="Image 3">
     <p id="blog-text-3">${document.getElementById('text3').value}</p>
   </div>
 
   <div class="blog-content-section" id="section-4">
     <p id="blog-text-4">${document.getElementById('text4').value}</p>
-    <img id="blog-image-5" src="${document.getElementById('image4').value}" alt="Image 5">
+    <img id="blog-image-4" src="${document.getElementById('image4').value}" alt="Image 4">
   </div>
 
   <div class="blog-content-section" id="section-5">
