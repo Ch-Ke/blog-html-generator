@@ -16,20 +16,28 @@ document.getElementById('blog-style').addEventListener('change', function() {
       inputArea.innerHTML = `
 <label for="blogType">Blog Type:</label>
 <input type="text" id="blogType" placeholder="Enter blog type, e.g. interview, playlist etc.">
+
 <label for="video">Video URL:</label>
 <input type="text" id="video" placeholder="Enter video URL">
+
 <label for="title1">Text Title:</label>
 <input type="text" id="title1" placeholder="Enter title">
-<label for="text0">Title Para</label>
-<textarea id="text0" placeholder="Enter title paragraph"></textarea>
+
+<label for="titlepara">Title Paragraph</label>
+<textarea id="titlepara" placeholder="Enter title paragraph"></textarea>
+
 <label for="text1">Text Section 1:</label>
 <textarea id="text1" placeholder="Enter text section"></textarea>
+
 <label for="image1">Image 1 URL:</label>
 <input type="text" id="image1" placeholder="Enter image URL">
+
 <label for="text2">Text Section 2:</label>
 <textarea id="text2" placeholder="Enter text section"></textarea>
+
 <label for="image2">Image 2 URL:</label>
 <input type="text" id="image2" placeholder="Enter image URL">
+
 <label for="text3">Text Section 3:</label>
 <textarea id="text3" placeholder="Enter text section"></textarea>
 `;
@@ -40,14 +48,19 @@ document.getElementById('blog-style').addEventListener('change', function() {
       inputArea.innerHTML = `
 <label for="blogType">Blog Type:</label>
 <input type="text" id="blogType" placeholder="Enter blog type, e.g. interview, playlist etc.">
+
 <label for="image1">Image URL:</label>
 <input type="text" id="image1" placeholder="Enter image URL">
+
 <label for="title1">Title:</label>
 <input type="text" id="title1" placeholder="Enter title">
-<label for="text0">Title Para</label>
-<textarea id="text0" placeholder="Enter title paragraph"></textarea>
+
+<label for="titlepara">Title Paragraph</label>
+<textarea id="titlepara" placeholder="Enter title paragraph"></textarea>
+
 <label for="buttonText">Button text:</label>
 <input type="text" id="buttonText" placeholder="Enter button text">
+
 <label for="button1">Hyperlinked Button (URL):</label>
 <input type="text" id="button1" placeholder="Enter button URL">
 `;
@@ -58,26 +71,33 @@ document.getElementById('blog-style').addEventListener('change', function() {
       inputArea.innerHTML = `
 <label for="blogType">Blog Type:</label>
 <input type="text" id="blogType" placeholder="Enter blog type, e.g. interview, playlist etc.">
+
 <label for="image1">Image URL:</label>
 <input type="text" id="image1" placeholder="Enter image URL">
+
 <label for="title1">Title:</label>
 <input type="text" id="title1" placeholder="Enter title">
-<label for="text0">Title Para</label>
-<textarea id="text0" placeholder="Enter title paragraph"></textarea>
+
+<label for="titlepara">Title Paragraph</label>
+<textarea id="titlepara" placeholder="Enter title paragraph"></textarea>
+
 <label for="text1">Text Section 1:</label>
 <textarea id="text1" placeholder="Enter text section"></textarea>
+
 <label for="image2">Image 2 URL:</label>
 <input type="text" id="image2" placeholder="Enter image URL">
+
 <label for="text2">Text Section 2:</label>
 <textarea id="text2" placeholder="Enter text section"></textarea>
+
 <label for="image3">Image 3 URL:</label>
 <input type="text" id="image3" placeholder="Enter image URL">
+
 <label for="text3">Text Section 3:</label>
 <textarea id="text3" placeholder="Enter text section"></textarea>
+
 <label for="image4">Image 4 URL:</label>
 <input type="text" id="image4" placeholder="Enter image URL">
-<label for="text4">Text Section 4:</label>
-<textarea id="text4" placeholder="Enter text section"></textarea>
 `;
       previewImage.src = 'images/Style3.jpg';  // Update preview image for Style 3
       break;
@@ -86,28 +106,40 @@ document.getElementById('blog-style').addEventListener('change', function() {
       inputArea.innerHTML = `
 <label for="blogType">Blog Type:</label>
 <input type="text" id="blogType" placeholder="Enter blog type, e.g. interview, playlist etc.">
+
 <label for="image1">Image URL:</label>
 <input type="text" id="image1" placeholder="Enter image URL">
+
 <label for="title1">Title:</label>
 <input type="text" id="title1" placeholder="Enter title">
-<label for="text0">Title Para</label>
-<textarea id="text0" placeholder="Enter title paragraph"></textarea>
+
+<label for="titlepara">Title Paragraph</label>
+<textarea id="titlepara" placeholder="Enter title paragraph"></textarea>
+
 <label for="text1">Text Section 1:</label>
 <textarea id="text1" placeholder="Enter text section"></textarea>
+
 <label for="image2">Image 2 URL:</label>
 <input type="text" id="image2" placeholder="Enter image URL">
+
 <label for="text2">Text Section 2:</label>
 <textarea id="text2" placeholder="Enter text section"></textarea>
+
 <label for="image3">Image 3 URL:</label>
 <input type="text" id="image3" placeholder="Enter image URL">
+
 <label for="text3">Text Section 3:</label>
 <textarea id="text3" placeholder="Enter text section"></textarea>
+
 <label for="image4">Image 4 URL:</label>
 <input type="text" id="image4" placeholder="Enter image URL">
+
 <label for="text4">Text Section 4:</label>
 <textarea id="text4" placeholder="Enter text section"></textarea>
+
 <label for="image5">Image 5 URL:</label>
 <input type="text" id="image5" placeholder="Enter image URL">
+
 <label for="text5">Text Section 5:</label>
 <textarea id="text5" placeholder="Enter text section"></textarea>
 `;
@@ -118,28 +150,40 @@ document.getElementById('blog-style').addEventListener('change', function() {
       inputArea.innerHTML = `
 <label for="blogType">Blog Type:</label>
 <input type="text" id="blogType" placeholder="Enter blog type, e.g. interview, playlist etc.">
+
 <label for="video">Video URL:</label>
 <input type="text" id="video" placeholder="Enter video URL">
+
 <label for="title1">Title:</label>
 <input type="text" id="title1" placeholder="Enter title">
-<label for="text0">Title Para</label>
-<textarea id="text0" placeholder="Enter title paragraph"></textarea>
+
+<label for="titlepara">Title Paragraph</label>
+<textarea id="titlepara" placeholder="Enter title paragraph"></textarea>
+
 <label for="text1">Text Section 1:</label>
 <textarea id="text1" placeholder="Enter text section"></textarea>
+
 <label for="image1">Image 1 URL:</label>
 <input type="text" id="image1" placeholder="Enter image URL">
+
 <label for="text2">Text Section 2:</label>
 <textarea id="text2" placeholder="Enter text section"></textarea>
+
 <label for="image2">Image 2 URL:</label>
 <input type="text" id="image2" placeholder="Enter image URL">
+
 <label for="text3">Text Section 3:</label>
 <textarea id="text3" placeholder="Enter text section"></textarea>
+
 <label for="image3">Image 3 URL:</label>
 <input type="text" id="image3" placeholder="Enter image URL">
+
 <label for="text4">Text Section 4:</label>
 <textarea id="text4" placeholder="Enter text section"></textarea>
+
 <label for="image4">Image 4 URL:</label>
 <input type="text" id="image4" placeholder="Enter image URL">
+
 <label for="text5">Text Section 5:</label>
 <textarea id="text5" placeholder="Enter text section"></textarea>
 `;
@@ -237,7 +281,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   <div class="blog-title-container">
     <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-    <p id="title-paragraph">${document.getElementById('text0').value}</p>
+    <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
   </div>
 
   <div class="blog-image-text-container">
@@ -303,7 +347,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
     <div class="blog-title-container">
       <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-      <p id="title-paragraph">${document.getElementById('text0').value}</p>
+      <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
       <button class="button button--secondary"><a href="${document.getElementById('button1').value}" class="btn">${document.getElementById('buttonText').value}</a></button>
     </div>
   </div>
@@ -319,6 +363,11 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin: auto !important;
   }
   
+  #blog-video{
+    width:100%;
+    aspect-ratio: 16/9
+  }
+
   #blog-image-1
   .blog-bottom-banner-image{
     width:100%;
@@ -381,38 +430,43 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   #blog-image-4{
     max-height: 500px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/3;
+    width:auto;
+    margin: 0 auto;
+    display: flex;
   }
   
 </style>
 
 <div class="blog-post">
-  <img id="blog-image-1" src="${document.getElementById('image1').value}" alt="Image">
-  
+  <div class="blog-video-container">
+    <img id="blog-image-1" src="${document.getElementById('image1').value}" alt="Image">
+  </div>
+
   <div class="blog-type-date-container">
     <h3 id="blog-type-date">${document.getElementById('blogType').value} | ${formattedDate}</h3>
   </div>
 
   <div class="blog-title-container">
     <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-    <p id="title-paragraph">${document.getElementById('text0').value}</p>
+    <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
   </div>
 
   <div class="blog-image-text-container">
     <div class="blog-image-text-item" id="section-1">
-      <img class="blog-content-image" id="blog-image-2" src="${document.getElementById('image2').value}" alt="Image 2">
+      <img class="blog-content-image" id="blog-image-1" src="${document.getElementById('image1').value}" alt="Image 1">
       <p class="blog-content-text" id="blog-text-1">${document.getElementById('text1').value}</p>
     </div>
 
     <div class="blog-image-text-item" id="section-2">
       <p class="blog-content-text" id="blog-text-2">${document.getElementById('text2').value}</p>
-      <img class="blog-bottom-banner-image" id="blog-image-3" src="${document.getElementById('image3').value}" alt="Image 3">
+      <img id="blog-image-2" class="blog-content-image" src="${document.getElementById('image2').value}" alt="Image 2">
     </div>
   </div>
 
-  <div class="blog-content-section" id="section-3">
-    <img class="blog-content-image" id="blog-image-4" src="${document.getElementById('image4').value}" alt="Image 4">
-    <p class="blog-content-text" id="blog-text-3">${document.getElementById('text3').value}</p>
+  <div id="section-3">
+    <img class="blog-bottom-banner-image" id="blog-image-3" src="${document.getElementById('image3').value}" alt="Image 3">
+    <p id="blog-text-3">${document.getElementById('text3').value}</p>
   </div>
 </div>
 `;
@@ -426,6 +480,11 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin: auto !important;
   }
   
+  #blog-video{
+    width:100%;
+    aspect-ratio: 16/9
+  }
+
   #blog-image-1
   .blog-bottom-banner-image{
     width:100%;
@@ -488,43 +547,48 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   #blog-image-4{
     max-height: 500px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/3;
+    width:auto;
+    margin: 0 auto;
+    display: flex;
   }
   
 </style>
 
 <div class="blog-post">
-  <img id="blog-image-1" src="${document.getElementById('image1').value}" alt="Image">
-  
+  <div class="blog-video-container">
+    <img id="blog-image-1" src="${document.getElementById('image1').value}" alt="Image">
+  </div>
+
   <div class="blog-type-date-container">
     <h3 id="blog-type-date">${document.getElementById('blogType').value} | ${formattedDate}</h3>
   </div>
 
   <div class="blog-title-container">
     <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-    <p id="title-paragraph">${document.getElementById('text0').value}</p>
+    <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
   </div>
 
   <div class="blog-image-text-container">
     <div class="blog-image-text-item" id="section-1">
-      <img class="blog-content-image" id="blog-image-2" src="${document.getElementById('image2').value}" alt="Image 2">
+      <img class="blog-content-image" id="blog-image-1" src="${document.getElementById('image1').value}" alt="Image 1">
       <p class="blog-content-text" id="blog-text-1">${document.getElementById('text1').value}</p>
     </div>
 
     <div class="blog-image-text-item" id="section-2">
       <p class="blog-content-text" id="blog-text-2">${document.getElementById('text2').value}</p>
-      <img class="blog-bottom-banner-image" id="blog-image-3" src="${document.getElementById('image3').value}" alt="Image 3">
+      <img id="blog-image-2" class="blog-content-image" src="${document.getElementById('image2').value}" alt="Image 2">
     </div>
   </div>
 
   <div id="section-3">
-    <img class="blog-bottom-banner-image" id="blog-image-4" src="${document.getElementById('image4').value}" alt="Image 4">
+    <img class="blog-bottom-banner-image" id="blog-image-3" src="${document.getElementById('image3').value}" alt="Image 3">
     <p id="blog-text-3">${document.getElementById('text3').value}</p>
   </div>
 
   <div class="blog-content-section" id="section-4">
     <p id="blog-text-4">${document.getElementById('text4').value}</p>
-    <img id="blog-image-5" src="${document.getElementById('image5').value}" alt="Image 5">
+    <img id="blog-image-4" src="${document.getElementById('image4').value}" alt="Image 4">
   </div>
 
   <div class="blog-content-section" id="section-5">
@@ -628,7 +692,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   <div class="blog-title-container">
     <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-    <p id="title-paragraph">${document.getElementById('text0').value}</p>
+    <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
   </div>
 
   <div class="blog-image-text-container">
