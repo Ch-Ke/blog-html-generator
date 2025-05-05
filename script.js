@@ -281,23 +281,23 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   <div class="blog-title-container">
     <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-    <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
+    <pre id="title-paragraph">${document.getElementById('titlepara').value}</pre>
   </div>
 
   <div class="blog-image-text-container">
     <div class="blog-image-text-item">
       <img id="blog-image-1" class="blog-content-image" src="${document.getElementById('image1').value}" alt="Image 1" width="1500" height="1064" sizes="(min-width: 1400px) 650px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)">
-      <p id="blog-text-1" class="blog-content-text">${document.getElementById('text1').value}</p>
+      <pre id="blog-text-1" class="blog-content-text">${document.getElementById('text1').value}</pre>
     </div>
 
     <div class="blog-image-text-item">
-      <p id="blog-text-2" class="blog-content-text">${document.getElementById('text2').value}</p>
+      <pre id="blog-text-2" class="blog-content-text">${document.getElementById('text2').value}</pre>
       <img id="blog-image-2" class="blog-content-image" src="${document.getElementById('image2').value}" alt="Image 2" width="1500" height="1064" sizes="(min-width: 1400px) 650px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)">
     </div>
   </div>
 
   <div class="blog-final-paragraph-container">
-    <p id="blog-final-paragraph" class="blog-final-paragraph">${document.getElementById('text3').value}</p>
+    <pre id="blog-final-paragraph" class="blog-final-paragraph">${document.getElementById('text3').value}</pre>
   </div>
 </div>
 
@@ -347,7 +347,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
     <div class="blog-title-container">
       <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-      <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
+      <pre id="title-paragraph">${document.getElementById('titlepara').value}</pre>
       <button class="button button--secondary"><a href="${document.getElementById('button1').value}" class="btn">${document.getElementById('buttonText').value}</a></button>
     </div>
   </div>
@@ -449,24 +449,24 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   <div class="blog-title-container">
     <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-    <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
+    <pre id="title-paragraph">${document.getElementById('titlepara').value}</pre>
   </div>
 
   <div class="blog-image-text-container">
     <div class="blog-image-text-item" id="section-1">
       <img class="blog-content-image" id="blog-image-1" src="${document.getElementById('image1').value}" alt="Image 1">
-      <p class="blog-content-text" id="blog-text-1">${document.getElementById('text1').value}</p>
+      <pre class="blog-content-text" id="blog-text-1">${document.getElementById('text1').value}</pre>
     </div>
 
     <div class="blog-image-text-item" id="section-2">
-      <p class="blog-content-text" id="blog-text-2">${document.getElementById('text2').value}</p>
+      <pre class="blog-content-text" id="blog-text-2">${document.getElementById('text2').value}</pre>
       <img id="blog-image-2" class="blog-content-image" src="${document.getElementById('image2').value}" alt="Image 2">
     </div>
   </div>
 
   <div id="section-3">
     <img class="blog-bottom-banner-image" id="blog-image-3" src="${document.getElementById('image3').value}" alt="Image 3">
-    <p id="blog-text-3">${document.getElementById('text3').value}</p>
+    <pre id="blog-text-3">${document.getElementById('text3').value}</pre>
   </div>
 </div>
 `;
@@ -566,33 +566,33 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   <div class="blog-title-container">
     <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-    <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
+    <pre id="title-paragraph">${document.getElementById('titlepara').value}</pre>
   </div>
 
   <div class="blog-image-text-container">
     <div class="blog-image-text-item" id="section-1">
       <img class="blog-content-image" id="blog-image-1" src="${document.getElementById('image1').value}" alt="Image 1">
-      <p class="blog-content-text" id="blog-text-1">${document.getElementById('text1').value}</p>
+      <pre class="blog-content-text" id="blog-text-1">${document.getElementById('text1').value}</pre>
     </div>
 
     <div class="blog-image-text-item" id="section-2">
-      <p class="blog-content-text" id="blog-text-2">${document.getElementById('text2').value}</p>
+      <pre class="blog-content-text" id="blog-text-2">${document.getElementById('text2').value}</pre>
       <img id="blog-image-2" class="blog-content-image" src="${document.getElementById('image2').value}" alt="Image 2">
     </div>
   </div>
 
   <div id="section-3">
     <img class="blog-bottom-banner-image" id="blog-image-3" src="${document.getElementById('image3').value}" alt="Image 3">
-    <p id="blog-text-3">${document.getElementById('text3').value}</p>
+    <pre id="blog-text-3">${document.getElementById('text3').value}</pre>
   </div>
 
   <div class="blog-content-section" id="section-4">
-    <p id="blog-text-4">${document.getElementById('text4').value}</p>
+    <pre id="blog-text-4">${document.getElementById('text4').value}</pre>
     <img id="blog-image-4" src="${document.getElementById('image4').value}" alt="Image 4">
   </div>
 
   <div class="blog-content-section" id="section-5">
-    <p id="blog-text-5">${document.getElementById('text5').value}</p>
+    <pre id="blog-text-5">${document.getElementById('text5').value}</pre>
   </div>
 </div>
 `;
@@ -692,33 +692,33 @@ document.getElementById('generate-html').addEventListener('click', function() {
 
   <div class="blog-title-container">
     <h1 id="blog-title">${document.getElementById('title1').value}</h1>
-    <p id="title-paragraph">${document.getElementById('titlepara').value}</p>
+    <pre id="title-paragraph">${document.getElementById('titlepara').value}</pre>
   </div>
 
   <div class="blog-image-text-container">
     <div class="blog-image-text-item" id="section-1">
       <img class="blog-content-image" id="blog-image-1" src="${document.getElementById('image1').value}" alt="Image 1">
-      <p class="blog-content-text" id="blog-text-1">${document.getElementById('text1').value}</p>
+      <pre class="blog-content-text" id="blog-text-1">${document.getElementById('text1').value}</pre>
     </div>
 
     <div class="blog-image-text-item" id="section-2">
-      <p class="blog-content-text" id="blog-text-2">${document.getElementById('text2').value}</p>
+      <pre class="blog-content-text" id="blog-text-2">${document.getElementById('text2').value}</pre>
       <img id="blog-image-2" class="blog-content-image" src="${document.getElementById('image2').value}" alt="Image 2">
     </div>
   </div>
 
   <div id="section-3">
     <img class="blog-bottom-banner-image" id="blog-image-3" src="${document.getElementById('image3').value}" alt="Image 3">
-    <p id="blog-text-3">${document.getElementById('text3').value}</p>
+    <pre id="blog-text-3">${document.getElementById('text3').value}</pre>
   </div>
 
   <div class="blog-content-section" id="section-4">
-    <p id="blog-text-4">${document.getElementById('text4').value}</p>
+    <pre id="blog-text-4">${document.getElementById('text4').value}</pre>
     <img id="blog-image-4" src="${document.getElementById('image4').value}" alt="Image 4">
   </div>
 
   <div class="blog-content-section" id="section-5">
-    <p id="blog-text-5">${document.getElementById('text5').value}</p>
+    <pre id="blog-text-5">${document.getElementById('text5').value}</pre>
   </div>
 </div>
 `;
