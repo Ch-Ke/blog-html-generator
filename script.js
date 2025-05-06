@@ -236,8 +236,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
   }
 
   .blog-content-text{
-    display: flex;
-    align-items: center;
+    margin: auto;
   }
 
   #blog-text-1{
@@ -394,8 +393,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
   }
 
   .blog-content-text{
-    display: flex;
-    align-items: center;
+    margin: auto;
   }
 
   #blog-text-1{
@@ -511,8 +509,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
   }
 
   .blog-content-text{
-    display: flex;
-    align-items: center;
+    margin: auto;
   }
 
   #blog-text-1{
@@ -637,8 +634,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
   }
 
   .blog-content-text{
-    display: flex;
-    align-items: center;
+    margin: auto;
   }
 
   #blog-text-1{
