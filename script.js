@@ -269,6 +269,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
   }
   @media screen and (max-width: 749px) {
     .blog-post{
+      display: block;
       padding: 0;
     }
     .blog-image-text-item{
@@ -277,7 +278,9 @@ document.getElementById('generate-html').addEventListener('click', function() {
     .blog-content-text,
     .blog-content-image,
     #blog-text-1,
-    #blog-text-2{
+    #blog-text-2,
+    #main-img,
+    #text-content{
       padding: 0;
       margin: 0;
       width: 100% !important;
@@ -352,6 +355,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
 }
 @media screen and (max-width: 749px) {
     .blog-post{
+      display: block;
       padding: 0;
     }
     .blog-image-text-item{
@@ -360,7 +364,9 @@ document.getElementById('generate-html').addEventListener('click', function() {
     .blog-content-text,
     .blog-content-image,
     #blog-text-1,
-    #blog-text-2{
+    #blog-text-2,
+    #main-img,
+    #text-content{
       padding: 0;
       margin: 0;
       width: 100% !important;
@@ -467,6 +473,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
   }
   @media screen and (max-width: 749px) {
     .blog-post{
+      display: block;
       padding: 0;
     }
     .blog-image-text-item{
@@ -475,7 +482,9 @@ document.getElementById('generate-html').addEventListener('click', function() {
     .blog-content-text,
     .blog-content-image,
     #blog-text-1,
-    #blog-text-2{
+    #blog-text-2,
+    #main-img,
+    #text-content{
       padding: 0;
       margin: 0;
       width: 100% !important;
@@ -598,6 +607,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
   }
   @media screen and (max-width: 749px) {
     .blog-post{
+      display: block;
       padding: 0;
     }
     .blog-image-text-item{
@@ -606,7 +616,9 @@ document.getElementById('generate-html').addEventListener('click', function() {
     .blog-content-text,
     .blog-content-image,
     #blog-text-1,
-    #blog-text-2{
+    #blog-text-2,
+    #main-img,
+    #text-content{
       padding: 0;
       margin: 0;
       width: 100% !important;
@@ -738,6 +750,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
   }
   @media screen and (max-width: 749px) {
     .blog-post{
+      display: block;
       padding: 0;
     }
     .blog-image-text-item{
@@ -746,7 +759,9 @@ document.getElementById('generate-html').addEventListener('click', function() {
     .blog-content-text,
     .blog-content-image,
     #blog-text-1,
-    #blog-text-2{
+    #blog-text-2,
+    #main-img,
+    #text-content{
       padding: 0;
       margin: 0;
       width: 100% !important;
