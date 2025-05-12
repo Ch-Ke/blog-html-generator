@@ -267,6 +267,22 @@ document.getElementById('generate-html').addEventListener('click', function() {
   .blog-title-container{
     margin-bottom: 30px;
   }
+  @media screen and (max-width: 749px) {
+    .blog-post{
+      padding: 0;
+    }
+    .blog-image-text-item{
+      display: block;
+      }
+    .blog-content-text,
+    .blog-content-image,
+    #blog-text-1,
+    #blog-text-2{
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+    }
+  }
 </style>
 
 <div class="blog-post">
@@ -334,6 +350,22 @@ document.getElementById('generate-html').addEventListener('click', function() {
     display:inline-block;
     width:50%;
 }
+@media screen and (max-width: 749px) {
+    .blog-post{
+      padding: 0;
+    }
+    .blog-image-text-item{
+      display: block;
+      }
+    .blog-content-text,
+    .blog-content-image,
+    #blog-text-1,
+    #blog-text-2{
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+    }
+  }
 </style>
 
 <div class="blog-post">
@@ -433,7 +465,22 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin: 0 auto;
     display: flex;
   }
-  
+  @media screen and (max-width: 749px) {
+    .blog-post{
+      padding: 0;
+    }
+    .blog-image-text-item{
+      display: block;
+      }
+    .blog-content-text,
+    .blog-content-image,
+    #blog-text-1,
+    #blog-text-2{
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+    }
+  }
 </style>
 
 <div class="blog-post">
@@ -549,7 +596,22 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin: 0 auto;
     display: flex;
   }
-  
+  @media screen and (max-width: 749px) {
+    .blog-post{
+      padding: 0;
+    }
+    .blog-image-text-item{
+      display: block;
+      }
+    .blog-content-text,
+    .blog-content-image,
+    #blog-text-1,
+    #blog-text-2{
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+    }
+  }
 </style>
 
 <div class="blog-post">
@@ -674,7 +736,22 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin: 0 auto;
     display: flex;
   }
-  
+  @media screen and (max-width: 749px) {
+    .blog-post{
+      padding: 0;
+    }
+    .blog-image-text-item{
+      display: block;
+      }
+    .blog-content-text,
+    .blog-content-image,
+    #blog-text-1,
+    #blog-text-2{
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+    }
+  }
 </style>
 
 <div class="blog-post">
