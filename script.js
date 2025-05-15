@@ -267,7 +267,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
   .blog-title-container{
     margin-bottom: 30px;
   }
-  @media screen and (max-width: 749px) {
+  @media screen and (max-width: 1000px) {
     .blog-post{
       display: block;
       padding: 0;
@@ -353,7 +353,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
     display:inline-block;
     width:50%;
 }
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 1000px) {
     .blog-post{
       display: block;
       padding: 0;
@@ -471,7 +471,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin: 0 auto;
     display: flex;
   }
-  @media screen and (max-width: 749px) {
+  @media screen and (max-width: 1000) {
     .blog-post{
       display: block;
       padding: 0;
@@ -605,7 +605,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin: 0 auto;
     display: flex;
   }
-  @media screen and (max-width: 749px) {
+  @media screen and (max-width: 1000) {
     .blog-post{
       display: block;
       padding: 0;
@@ -748,7 +748,7 @@ document.getElementById('generate-html').addEventListener('click', function() {
     margin: 0 auto;
     display: flex;
   }
-  @media screen and (max-width: 749px) {
+  @media screen and (max-width: 1000) {
     .blog-post{
       display: block;
       padding: 0;
